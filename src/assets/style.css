@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Bebas";
+  src: url("./fonts/BebasNeue-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+    font-family: 'Bebas';
+}
+
+.gradient-hover:hover {
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
