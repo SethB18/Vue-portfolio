@@ -52,6 +52,94 @@
       </div>
     </div>
   </section>
+  <section class="py-5 exp">
+    <div class="container">
+      <h1 class="fs-1 text-light">Experience</h1>
+      <hr class="text-light">
+      <div class="row text-light row-gap-1">
+        <div class="col-6">
+          <div class="row">
+            <div class="col-3">
+              <img class="w-100 rounded-2" src="../assets/imgs/GGAC.jpg" alt="">
+            </div>
+            <div class="col-6">
+              <div class="title fw-bold text-light fs-3">Girl Guid Assosiate</div>
+              <div class="detail desc">I've been serve and join ggac since 2025, During this duty i learn about management, team work, organization, social skills, </div>
+            </div>
+            <div class="col-3 d-flex align-items-center">
+              <div class="btn btn-primary border border-1 rounded-3">
+                Detail
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="row">
+            <div class="col-3">
+              <img class="w-100 rounded-2" src="../assets/imgs/GGAC.jpg" alt="">
+            </div>
+            <div class="col-6">
+              <div class="title fw-bold text-light fs-3">Girl Guid Assosiate</div>
+              <div class="detail desc">I've been serve and join ggac since 2025, During this duty i learn about management, team work, organization, social skills, </div>
+            </div>
+            <div class="col-3 d-flex align-items-center">
+              <div class="btn btn-primary border border-1 rounded-3">
+                Detail
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="row">
+            <div class="col-3">
+              <img class="w-100 rounded-2" src="../assets/imgs/GGAC.jpg" alt="">
+            </div>
+            <div class="col-6">
+              <div class="title fw-bold text-light fs-3">Girl Guid Assosiate</div>
+              <div class="detail desc">I've been serve and join ggac since 2025, During this duty i learn about management, team work, organization, social skills, </div>
+            </div>
+            <div class="col-3 d-flex align-items-center">
+              <div class="btn btn-primary border border-1 rounded-3">
+                Detail
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="row">
+            <div class="col-3">
+              <img class="w-100 rounded-2" src="../assets/imgs/GGAC.jpg" alt="">
+            </div>
+            <div class="col-6">
+              <div class="title fw-bold text-light fs-3">Girl Guid Assosiate</div>
+              <div class="detail desc">I've been serve and join ggac since 2025, During this duty i learn about management, team work, organization, social skills, </div>
+            </div>
+            <div class="col-3 d-flex align-items-center">
+              <div class="btn btn-primary border border-1 rounded-3">
+                Detail
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5 skils">
+    <div class="container">
+      <h1 class="fs-1 text-light">Skills</h1>
+      <hr class="text-light">
+      <div class="row">
+        <div class="tech-icons w-100 d-flex justify-content-center">
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-vuejs"></i>
+          <i class="fa-brands fa-js"></i>
+          <i class="fa-brands fa-python"></i>
+          <i class="fa-solid fa-code"></i> <!-- C++ -->
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <style scoped>
@@ -69,8 +157,23 @@
 }
 
 .desc{
-  font-size: 1.5rem;
+  font-size: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
+.tech-icons i {
+  font-size: 3rem;
+  margin: 0.5rem;
+}
+
+.fa-html5 { color: #e34f26; }
+.fa-css3-alt { color: #1572b6; }
+.fa-vuejs { color: #42b883; }
+.fa-js { color: #f7df1e; }
+.fa-python { color: #3776ab; }
+
 </style>
 
 <script setup>
