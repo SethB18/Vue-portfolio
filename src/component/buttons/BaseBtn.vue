@@ -1,5 +1,5 @@
 <template>
-    <button class="btn rounded-3 p-2 btn-outline-light">{{ title }}</button>
+    <a :href="`#${title}`" class="btn rounded-3 p-2 btn-outline-light">{{ title }}</a>
 </template>
 
 <script setup>
